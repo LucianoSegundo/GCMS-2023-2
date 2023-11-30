@@ -80,5 +80,10 @@ public class HomeController {
 	public @ResponseBody String greetingLuciano2() {
 	return "Hello, LucianoCopiaModificada!";
 	}
+    
+    @RequestMapping("/forkLuciano")
+	public @ResponseBody String greeting() {
+		return "forkLuciano";
+	}
 
 }
